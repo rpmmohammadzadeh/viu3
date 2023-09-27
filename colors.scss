@@ -1,0 +1,261 @@
+/* Accessibility: n/a
+
+For use with non-interactive elements (illustrations or backgrounds) */
+$colorPrimarySky500: #3a98e5;    
+/* Accessibility: AA (used w/ white)
+
+Default state of CTA elements (primary/secondary/tertiary and text links) */
+$colorPrimarySky600: #1f7ac4;    
+/* Accessibility: AA (used w/ white)
+
+Hover state of CTA elements (primary/secondary/tertiary and text links) */
+$colorPrimarySky700: #1d67a3;    
+/* Accessibility: AAA (used w/ white)
+
+Used for pressed state of CTA elements (primary/secondary/tertiary and text links) */
+$colorPrimarySky800: #16558a;    
+/* Accessibility: n/a
+
+For use with non-interactive elements (illustrations or backgrounds) */
+$colorSecondarySalmon500: #f06e61;    
+/* Accessibility: AA (used w/ white)
+
+Default state of error messaging */
+$colorSecondarySalmon600: #ce4a3e;    
+/* Accessibility: AA (used w/ white)
+
+Hover state (if necessary) */
+$colorSecondarySalmon700: #ad3b31;    
+/* Accessibility: AAA (used w/ white)
+
+Pressed state (if necessary) */
+$colorSecondarySalmon800: #962d24;    
+/* Accessibility: n/a
+
+For use with non-interactive elements (illustrations or backgrounds) */
+$colorSecondaryChristmas500: #7cc694;    
+/* Accessibility: AA (used w/ white)
+
+Default state of success messaging */
+$colorSecondaryChristmas600: #2b8748;    
+/* Accessibility: AAA (used w/ white)
+
+Pressed state (if necessary) */
+$colorSecondaryChristmas800: #125c2a;    
+/* Accessibility: n/a
+
+For use with non-interactive elements (illustrations or backgrounds) */
+$colorSecondarySunset500: #f6bd4e;    
+/* Accessibility: AA (used w/ white)
+
+Hover state (if necessary) */
+$colorSecondarySunset700: #914c07;    
+/* Accessibility: AAA (used w/ white)
+
+Pressed state (if necessary) */
+$colorSecondarySunset800: #803d0d;    
+/* Formerly named "Cotton"
+
+Accessibility: N/A
+
+For use with non-interactive elements and backgrounds only */
+$colorNeutral100: #ffffff;    
+/* Formerly named "Snow"
+
+Accessibility: N/A
+
+For use with non-interactive elements and backgrounds only */
+$colorNeutral200: #f8fafc;    
+/* Formerly named "Ice"
+
+Accessibility: N/A
+
+For use with non-interactive elements, backgrounds, and dividers */
+$colorNeutral300: #e5eaef;    
+/* Formerly named "Fog"
+
+Accessibility: 3:1 AA (used w/ white)
+
+For use with form field strokes and non-interactive elements only */
+$colorNeutral400: #8295ad;    
+/* Formerly named "Clouds"
+
+Accessibility: 4.5:1 AA (used w/ white)
+
+For use with text */
+$colorNeutral500: #647891;    
+/* Formerly named "Storm"
+
+Accessibility: 6:1 AA (used w/ white)
+
+For use with text */
+$colorNeutral600: #4a6382;    
+/* Formerly named "Hurricane"
+
+Accessibility: 9.5:1 AAA (used w/ white)
+
+For use with text */
+$colorNeutral700: #2e4664;    
+/* Formerly named "Deep sea"
+
+Accessibility: 16.5:1 AAA (used w/ white)
+
+For use with text */
+$colorNeutral800: #141e2b;    
+$colorSpecialtySkyBlueDark: #1f88de;    
+$colorSpecialtySkyBlueLight: #59a5e2;    
+$colorSpecialtySkyBluePale: #ebf5fc;    
+$colorSpecialtyChristmasDark: #6bbb85;    
+$colorSpecialtyChristmasLight: #91cea5;    
+$colorSpecialtyChristmasPale: #deede3;    
+$colorSpecialtySalmonDark: #e36357;    
+$colorSpecialtySalmonLight: #f98d82;    
+$colorSpecialtySalmonPale: #ebdedd;    
+$colorSpecialtySunsetDark: #ecb241;    
+$colorSpecialtySunsetLight: #fdcb6b;    
+$colorSpecialtySunsetPale: #ece6db;    
+$colorTransparentSky: #3a98e533;    
+/* Alias token: --viu-colour-surface-background-primary-default */
+$colorSurfaceBackgroundPrimaryDefault: $colorNeutral100;    
+/* Alias token: --viu-colour-surface-border-primary-default */
+$colorSurfaceBorderPrimaryDefault: $colorNeutral100;    
+/* Alias token: --viu-colour-surface-text-onprimary-default */
+$colorSurfaceTextOnprimaryDefault: $colorNeutral700;    
+/* Alias token: --viu-colour-surface-background-primary-disable */
+$colorSurfaceBackgroundPrimaryDisable: $colorNeutral200;    
+/* Alias token: --viu-colour-action-background-primary-default */
+$colorActionBackgroundPrimaryDefault: $colorPrimarySky600;    
+/* Alias token: --viu-colour-action-border-primary-default */
+$colorActionBorderPrimaryDefault: $colorPrimarySky600;    
+/* Alias token: --viu-colour-action-text-onprimary-default */
+$colorActionTextOnprimaryDefault: $colorNeutral100;    
+/* Alias token: --viu-colour-feedback-background-warning-default */
+$colorFeebackBackgroundWarningDefault: $colorSecondarySunset500;    
+/* Alias token: --viu-colour-feedback-border-warning-default */
+$colorFeebackBorderWarningDefault: $colorSecondarySunset700;    
+/* Alias token: --viu-colour-feedback-text-onwarning-default */
+$colorFeebackTextOnwarningDefault: $colorNeutral700;    
+/* Alias token: --viu-colour-surface-background-secondary-default */
+$colorSurfaceBackgroundSecondaryDefault: $colorNeutral200;    
+/* Alias token: --viu-colour-surface-background-secondary-disable */
+$colorSurfaceBackgroundSecondaryDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-surface-border-primary-disable */
+$colorSurfaceBorderPrimaryDisable: $colorNeutral200;    
+/* Alias token: --viu-colour-surface-border-secondary-default */
+$colorSurfaceBorderSecondaryDefault: $colorNeutral200;    
+/* Alias token: --viu-colour-surface-border-secondary-disable */
+$colorSurfaceBorderSecondaryDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-surface-text-onprimary-disable */
+$colorSurfaceTextOnprimaryDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-surface-text-onsecondary-default */
+$colorSurfaceTextOnsecondaryDefault: $colorNeutral800;    
+/* Alias token: --viu-colour-surface-text-onsecondary-disable */
+$colorSurfaceTextOnsecondaryDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-action-background-primary-hover */
+$colorActionBackgroundPrimaryHover: $colorPrimarySky700;    
+/* Alias token: --viu-colour-action-background-primary-focus */
+$colorActionBackgroundPrimaryFocus: $colorPrimarySky800;    
+/* Alias token: --viu-colour-action-background-primary-disable */
+$colorActionBackgroundPrimaryDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-action-border-primary-hover */
+$colorActionBorderPrimaryHover: $colorPrimarySky700;    
+/* Alias token: --viu-colour-action-border-primary-focus */
+$colorActionBorderPrimaryFocus: $colorPrimarySky800;    
+/* Alias token: --viu-colour-action-border-primary-disable */
+$colorActionBorderPrimaryDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-action-text-onprimary-hover */
+$colorActionTextOnprimaryHover: $colorNeutral100;    
+/* Alias token: --viu-colour-action-text-onprimary-focus */
+$colorActionTextOnprimaryFocus: $colorNeutral100;    
+/* Alias token: --viu-colour-action-text-onprimary-disable */
+$colorActionTextOnprimaryDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-action-background-secondary-default */
+$colorActionBackgroundSecondaryDefault: $colorNeutral100;    
+/* Alias token: --viu-colour-action-background-secondary-hover */
+$colorActionBackgroundSecondaryHover: $colorNeutral100;    
+/* Alias token: --viu-colour-action-background-secondary-focus */
+$colorActionBackgroundSecondaryFocus: $colorNeutral100;    
+/* Alias token: --viu-colour-action-background-secondary-disable */
+$colorActionBackgroundSecondaryDisable: $colorNeutral100;    
+/* Alias token: --viu-colour-action-border-secondary-default */
+$colorActionBorderSecondaryDefault: $colorPrimarySky600;    
+/* Alias token: --viu-colour-action-border-secondary-hover */
+$colorActionBorderSecondaryHover: $colorPrimarySky700;    
+/* Alias token: --viu-colour-action-border-secondary-focus */
+$colorActionBorderSecondaryFocus: $colorPrimarySky800;    
+/* Alias token: --viu-colour-action-border-secondary-disable */
+$colorActionBorderSecondaryDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-action-text-onsecondary-default */
+$colorActionTextOnsecondaryDefault: $colorPrimarySky600;    
+/* Alias token: --viu-colour-action-text-onsecondary-hover */
+$colorActionTextOnsecondaryHover: $colorPrimarySky700;    
+/* Alias token: --viu-colour-action-text-onsecondary-focus */
+$colorActionTextOnsecondaryFocus: $colorPrimarySky800;    
+/* Alias token: --viu-colour-action-text-onsecondary-disable */
+$colorActionTextOnsecondaryDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-feedback-background-warning-hover */
+$colorFeebackBackgroundWarningHover: $colorSecondarySunset700;    
+/* Alias token: --viu-colour-feedback-background-warning-focus */
+$colorFeebackBackgroundWarningFocus: $colorSecondarySunset800;    
+/* Alias token: --viu-colour-feedback-background-warning-disable */
+$colorFeebackBackgroundWarningDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-feedback-background-error-default */
+$colorFeebackBackgroundErrorDefault: $colorSecondarySalmon600;    
+/* Alias token: --viu-colour-feedback-background-error-hover */
+$colorFeebackBackgroundErrorHover: $colorSecondarySalmon700;    
+/* Alias token: --viu-colour-feedback-background-error-focus */
+$colorFeebackBackgroundErrorFocus: $colorSecondarySalmon800;    
+/* Alias token: --viu-colour-feedback-background-error-disable */
+$colorFeebackBackgroundErrorDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-feedback-background-safe-default */
+$colorFeebackBackgroundSafeDefault: $colorSecondaryChristmas500;    
+/* Alias token: --viu-colour-feedback-background-safe-hover */
+$colorFeebackBackgroundSafeHover: $colorSecondaryChristmas600;    
+/* Alias token: --viu-colour-feedback-background-safe-focus */
+$colorFeebackBackgroundSafeFocus: $colorSecondaryChristmas800;    
+/* Alias token: --viu-colour-feedback-background-safe-disable */
+$colorFeebackBackgroundSafeDisable: $colorNeutral300;    
+/* Alias token: --viu-colour-feedback-border-warning-hover */
+$colorFeebackBorderWarningHover: $colorSecondarySunset700;    
+/* Alias token: --viu-colour-feedback-border-warning-focus */
+$colorFeebackBorderWarningFocus: $colorSecondarySunset700;    
+/* Alias token: --viu-colour-feedback-border-warning-disable */
+$colorFeebackBorderWarningDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-feedback-border-error-default */
+$colorFeebackBorderErrorDefault: $colorSecondarySalmon800;    
+/* Alias token: --viu-colour-feedback-border-error-hover */
+$colorFeebackBorderErrorHover: $colorSecondarySalmon800;    
+/* Alias token: --viu-colour-feedback-border-error-focus */
+$colorFeebackBorderErrorFocus: $colorSecondarySalmon800;    
+/* Alias token: --viu-colour-feedback-border-error-disable */
+$colorFeebackBorderErrorDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-feedback-border-safe-default */
+$colorFeebackBorderSafeDefault: $colorSecondaryChristmas600;    
+/* Alias token: --viu-colour-feedback-border-safe-hover */
+$colorFeebackBorderSafeHover: $colorSecondaryChristmas600;    
+/* Alias token: --viu-colour-feedback-border-safe-focus */
+$colorFeebackBorderSafeFocus: $colorSecondaryChristmas600;    
+/* Alias token: --viu-colour-feedback-border-safe-disable */
+$colorFeebackBorderSafeDisable: $colorNeutral400;    
+/* Alias token: --viu-colour-feedback-text-onwarning-hover */
+$colorFeebackTextOnwarningHover: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onwarning-focus */
+$colorFeebackTextOnwarningFocus: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onwarning-disable */
+$colorFeebackTextOnwarningDisable: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onerror-default */
+$colorFeebackTextOnerrorDefault: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onerror-hover */
+$colorFeebackTextOnerrorHover: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onerror-focus */
+$colorFeebackTextOnerrorFocus: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onerror-disable */
+$colorFeebackTextOnerrorDisable: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onsafe-default */
+$colorFeebackTextOnsafeDefault: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onsafe-hover */
+$colorFeebackTextOnsafeHover: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onsafe-focus */
+$colorFeebackTextOnsafeFocus: $colorNeutral700;    
+/* Alias token: --viu-colour-feedback-text-onsafe-disable */
+$colorFeebackTextOnsafeDisable: $colorNeutral700;    
