@@ -1,0 +1,524 @@
+{
+  "shadow": {
+    "sizzle-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b29"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 30
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 30
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -30
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "soft-sizzle-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b1a"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 20
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 20
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -20
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "reverse-sizzle-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b0f"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -10
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 30
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -16
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "soft-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b0f"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 6
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 14
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "mild-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b14"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 8
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 24
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "medium-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b1a"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 6
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 16
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "spicy-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b1f"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 4
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 8
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    },
+    "left-shadow": {
+      "value": {
+        "color": {
+          "type": "color",
+          "value": "#141e2b0f"
+        },
+        "x": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": -15
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "y": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 20
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "spread": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 0
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        },
+        "opacity": {
+          "type": "size",
+          "value": 1
+        }
+      },
+      "type": "shadow"
+    }
+  }
+}
