@@ -1,0 +1,17 @@
+{
+  "font": {
+    "token-1": {
+      "value": {
+        "family": {
+          "type": "string",
+          "value": "Poppins"
+        },
+        "subfamily": {
+          "type": "string",
+          "value": "100"
+        }
+      },
+      "type": "font"
+    }
+  }
+}

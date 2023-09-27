@@ -1,0 +1,602 @@
+{
+  "color": {
+    "primary": {
+      "sky-500": {
+        "value": "#3a98e5ff",
+        "type": "color",
+        "comment": "Global token: --viu-ref-colour-sky-500"
+      },
+      "sky-600": {
+        "value": "#1f7ac4ff",
+        "type": "color",
+        "comment": "Accessibility: AA (used w/ white)\n\nDefault state of CTA elements (primary/secondary/tertiary and text links)"
+      },
+      "sky-700": {
+        "value": "#1d67a3ff",
+        "type": "color",
+        "comment": "Accessibility: AA (used w/ white)\n\nHover state of CTA elements (primary/secondary/tertiary and text links)"
+      },
+      "sky-800": {
+        "value": "#16558aff",
+        "type": "color",
+        "comment": "Accessibility: AAA (used w/ white)\n\nUsed for pressed state of CTA elements (primary/secondary/tertiary and text links)"
+      }
+    },
+    "secondary": {
+      "salmon-500": {
+        "value": "#f06e61ff",
+        "type": "color",
+        "comment": "Accessibility: n/a\n\nFor use with non-interactive elements (illustrations or backgrounds)"
+      },
+      "salmon-600": {
+        "value": "#ce4a3eff",
+        "type": "color",
+        "comment": "Accessibility: AA (used w/ white)\n\nDefault state of error messaging"
+      },
+      "salmon-700": {
+        "value": "#ad3b31ff",
+        "type": "color",
+        "comment": "Accessibility: AA (used w/ white)\n\nHover state (if necessary)"
+      },
+      "salmon-800": {
+        "value": "#962d24ff",
+        "type": "color",
+        "comment": "Accessibility: AAA (used w/ white)\n\nPressed state (if necessary)"
+      },
+      "christmas-500": {
+        "value": "#7cc694ff",
+        "type": "color",
+        "comment": "Accessibility: n/a\n\nFor use with non-interactive elements (illustrations or backgrounds)"
+      },
+      "christmas-600": {
+        "value": "#2b8748ff",
+        "type": "color",
+        "comment": "Accessibility: AA (used w/ white)\n\nDefault state of success messaging"
+      },
+      "christmas-800": {
+        "value": "#125c2aff",
+        "type": "color",
+        "comment": "Accessibility: AAA (used w/ white)\n\nPressed state (if necessary)"
+      },
+      "sunset-500": {
+        "value": "#f6bd4eff",
+        "type": "color",
+        "comment": "Accessibility: n/a\n\nFor use with non-interactive elements (illustrations or backgrounds)"
+      },
+      "sunset-700": {
+        "value": "#914c07ff",
+        "type": "color",
+        "comment": "Accessibility: AA (used w/ white)\n\nHover state (if necessary)"
+      },
+      "sunset-800": {
+        "value": "#803d0dff",
+        "type": "color",
+        "comment": "Accessibility: AAA (used w/ white)\n\nPressed state (if necessary)"
+      }
+    },
+    "neutral": {
+      "100": {
+        "value": "#ffffffff",
+        "type": "color",
+        "comment": "Formerly named \"Cotton\"\n\nAccessibility: N/A\n\nFor use with non-interactive elements and backgrounds only"
+      },
+      "200": {
+        "value": "#f8fafcff",
+        "type": "color",
+        "comment": "Formerly named \"Snow\"\n\nAccessibility: N/A\n\nFor use with non-interactive elements and backgrounds only"
+      },
+      "300": {
+        "value": "#e5eaefff",
+        "type": "color",
+        "comment": "Formerly named \"Ice\"\n\nAccessibility: N/A\n\nFor use with non-interactive elements, backgrounds, and dividers"
+      },
+      "400": {
+        "value": "#8295adff",
+        "type": "color",
+        "comment": "Formerly named \"Fog\"\n\nAccessibility: 3:1 AA (used w/ white)\n\nFor use with form field strokes and non-interactive elements only"
+      },
+      "500": {
+        "value": "#647891ff",
+        "type": "color",
+        "comment": "Formerly named \"Clouds\"\n\nAccessibility: 4.5:1 AA (used w/ white)\n\nFor use with text"
+      },
+      "600": {
+        "value": "#4a6382ff",
+        "type": "color",
+        "comment": "Formerly named \"Storm\"\n\nAccessibility: 6:1 AA (used w/ white)\n\nFor use with text"
+      },
+      "700": {
+        "value": "#2e4664ff",
+        "type": "color",
+        "comment": "Formerly named \"Hurricane\"\n\nAccessibility: 9.5:1 AAA (used w/ white)\n\nFor use with text"
+      },
+      "800": {
+        "value": "#141e2bff",
+        "type": "color",
+        "comment": "Formerly named \"Deep sea\"\n\nAccessibility: 16.5:1 AAA (used w/ white)\n\nFor use with text"
+      }
+    },
+    "specialty": {
+      "sky-blue-dark": {
+        "value": "#1f88deff",
+        "type": "color"
+      },
+      "sky-blue-light": {
+        "value": "#59a5e2ff",
+        "type": "color"
+      },
+      "sky-blue-pale": {
+        "value": "#ebf5fcff",
+        "type": "color"
+      },
+      "christmas-dark": {
+        "value": "#6bbb85ff",
+        "type": "color"
+      },
+      "christmas-light": {
+        "value": "#91cea5ff",
+        "type": "color"
+      },
+      "christmas-pale": {
+        "value": "#deede3ff",
+        "type": "color"
+      },
+      "salmon-dark": {
+        "value": "#e36357ff",
+        "type": "color"
+      },
+      "salmon-light": {
+        "value": "#f98d82ff",
+        "type": "color"
+      },
+      "salmon-pale": {
+        "value": "#ebdeddff",
+        "type": "color"
+      },
+      "sunset-dark": {
+        "value": "#ecb241ff",
+        "type": "color"
+      },
+      "sunset-light": {
+        "value": "#fdcb6bff",
+        "type": "color"
+      },
+      "sunset-pale": {
+        "value": "#ece6dbff",
+        "type": "color"
+      }
+    },
+    "transparent": {
+      "sky": {
+        "value": "#3a98e533",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "background": {
+        "primary": {
+          "default": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-background-primary-default"
+          },
+          "disable": {
+            "value": "{color.neutral.200.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-background-primary-disable"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{color.neutral.200.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-background-secondary-default"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-background-secondary-disable"
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "default": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-border-primary-default"
+          },
+          "disable": {
+            "value": "{color.neutral.200.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-border-primary-disable"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{color.neutral.200.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-border-secondary-default"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-border-secondary-disable"
+          }
+        }
+      },
+      "text": {
+        "onprimary": {
+          "default": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-text-onprimary-default"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-text-onprimary-disable"
+          }
+        },
+        "onsecondary": {
+          "default": {
+            "value": "{color.neutral.800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-text-onsecondary-default"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-surface-text-onsecondary-disable"
+          }
+        }
+      }
+    },
+    "action": {
+      "background": {
+        "primary": {
+          "default": {
+            "value": "{color.primary.sky-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-primary-default"
+          },
+          "hover": {
+            "value": "{color.primary.sky-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-primary-hover"
+          },
+          "focus": {
+            "value": "{color.primary.sky-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-primary-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-primary-disable"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-secondary-default"
+          },
+          "hover": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-secondary-hover"
+          },
+          "focus": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-secondary-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-background-secondary-disable"
+          }
+        }
+      },
+      "text": {
+        "onprimary": {
+          "default": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onprimary-default"
+          },
+          "hover": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onprimary-hover"
+          },
+          "focus": {
+            "value": "{color.neutral.100.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onprimary-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onprimary-disable"
+          }
+        },
+        "onsecondary": {
+          "default": {
+            "value": "{color.primary.sky-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onsecondary-default"
+          },
+          "hover": {
+            "value": "{color.primary.sky-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onsecondary-hover"
+          },
+          "focus": {
+            "value": "{color.primary.sky-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onsecondary-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-text-onsecondary-disable"
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "default": {
+            "value": "{color.primary.sky-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-primary-default"
+          },
+          "hover": {
+            "value": "{color.primary.sky-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-primary-hover"
+          },
+          "focus": {
+            "value": "{color.primary.sky-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-primary-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-primary-disable"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{color.primary.sky-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-secondary-default"
+          },
+          "hover": {
+            "value": "{color.primary.sky-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-secondary-hover"
+          },
+          "focus": {
+            "value": "{color.primary.sky-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-secondary-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-action-border-secondary-disable"
+          }
+        }
+      }
+    },
+    "feeback": {
+      "background": {
+        "warning": {
+          "default": {
+            "value": "{color.secondary.sunset-500.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-warning-default"
+          },
+          "hover": {
+            "value": "{color.secondary.sunset-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-warning-hover"
+          },
+          "focus": {
+            "value": "{color.secondary.sunset-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-warning-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-warning-disable"
+          }
+        },
+        "error": {
+          "default": {
+            "value": "{color.secondary.salmon-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-error-default"
+          },
+          "hover": {
+            "value": "{color.secondary.salmon-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-error-hover"
+          },
+          "focus": {
+            "value": "{color.secondary.salmon-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-error-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-error-disable"
+          }
+        },
+        "safe": {
+          "default": {
+            "value": "{color.secondary.christmas-500.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-safe-default"
+          },
+          "hover": {
+            "value": "{color.secondary.christmas-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-safe-hover"
+          },
+          "focus": {
+            "value": "{color.secondary.christmas-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-safe-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.300.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-background-safe-disable"
+          }
+        }
+      },
+      "border": {
+        "warning": {
+          "default": {
+            "value": "{color.secondary.sunset-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-warning-default"
+          },
+          "hover": {
+            "value": "{color.secondary.sunset-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-warning-hover"
+          },
+          "focus": {
+            "value": "{color.secondary.sunset-700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-warning-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-warning-disable"
+          }
+        },
+        "error": {
+          "default": {
+            "value": "{color.secondary.salmon-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-error-default"
+          },
+          "hover": {
+            "value": "{color.secondary.salmon-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-error-hover"
+          },
+          "focus": {
+            "value": "{color.secondary.salmon-800.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-error-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-error-disable"
+          }
+        },
+        "safe": {
+          "default": {
+            "value": "{color.secondary.christmas-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-safe-default"
+          },
+          "hover": {
+            "value": "{color.secondary.christmas-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-safe-hover"
+          },
+          "focus": {
+            "value": "{color.secondary.christmas-600.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-safe-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.400.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-border-safe-disable"
+          }
+        }
+      },
+      "text": {
+        "onwarning": {
+          "default": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onwarning-default"
+          },
+          "hover": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onwarning-hover"
+          },
+          "focus": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onwarning-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onwarning-disable"
+          }
+        },
+        "onerror": {
+          "default": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onerror-default"
+          },
+          "hover": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onerror-hover"
+          },
+          "focus": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onerror-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onerror-disable"
+          }
+        },
+        "onsafe": {
+          "default": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onsafe-default"
+          },
+          "hover": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onsafe-hover"
+          },
+          "focus": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onsafe-focus"
+          },
+          "disable": {
+            "value": "{color.neutral.700.value}",
+            "type": "color",
+            "comment": "Alias token: --viu-colour-feedback-text-onsafe-disable"
+          }
+        }
+      }
+    }
+  }
+}
